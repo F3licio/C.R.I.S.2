@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)), url("FUNDO.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-container{
+    width: 100%;
+    max-width: 420px;
+    background: rgba(119, 119, 116, 0.95);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 35px rgba(0,0,0,.5);
+}
+
+.login-header{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.login-header h1{
+    color: #360204;
+    margin-bottom: 8px;
+}
+
+.login-header p{
+    color: #360204;
+    font-size: 14px;
+    opacity: 0.85;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #360204;
+}
+
+.form-group input{
+    width: 100%;
+    padding: 12px;
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: .3s;
+}
+
+.form-group input::placeholder {
+    color: #888;
+}
+
+.form-group input:focus{
+    border-color: #360204;
+    outline: none;
+    box-shadow: 0 0 8px rgba(54,2,4,.4);
+}
+
+.btn-login{
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background: #360204;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+    margin-bottom: 20px;
+}
+
+.btn-login:hover{
+    background: #4d0407;
+    transform: translateY(-2px);
+}
+
+.footer-link {
+    text-align: center;
+    font-size: 14px;
+    color: #360204;
+    font-weight: 500;
+}
+
+.footer-link a {
+    color: #360204;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-link a:hover {
+    text-decoration: underline;
+}
+
